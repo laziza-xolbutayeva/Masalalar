@@ -1,150 +1,172 @@
-//1)
+//1-masala
 //  let L=+prompt("L uzunlik");
 // let M=(L-L%10)/10;
-// console.log(M);
-// 2)
+// alert(M);
+
+// 2-masala
 //  let M=+prompt("M kg");
 // let t=(M-M%1000)/1000;
-// console.log(t);
-//3) 
+// alert(t);
+
+//3-masala
 // let a=+prompt("A soni");
 // let b=+prompt("B soni");
-// console.log((a-a%b)/b);
-// 4)
+// alert((a-a%b)/b);
+
+// 4-masala
 //  let num=+prompt("ikki xonali son");
 // let birlik=num%10;
 // let onlik=(num-birlik)/10;
-// console.log(onlik,birlik);
-// 5) 
+// alert(onlik,birlik);
+
+// 5-masala 
 // let num=+prompt("ikki xonali son");
 // let birlik=num%10;
 // let onlik=(num-birlik)/10;
-// console.log(onlik+birlik);
-// 6) 
+// alert(onlik+birlik);
+
+// 6-masala
 // let num=+prompt("ikki xonali son");
 // let birlik=num%10;
 // let onlik=(num-birlik)/10;
-// console.log(onlik*birlik);
-// 7) 
+// alert(onlik*birlik);
+
+// 7-masala
 // let number=+prompt("999 dan katta  son");
 // let num=number%1000;
-// console.log(num);
-// 8) 
+// alert(num);
+
+// 8-masala
 // let N=+prompt("N sekundlar");
 // let soat=(N-N%3600)/3600;
 // let min=((N-soat*3600)-(N-soat*3600)%60)/60;
 // sek=N-soat*3600-min*60;
-// console.log(soat,':',min,':',sek);
+// alert(soat,':',min,':',sek);
 
 // Mantiqiy amallar
-// 1) 
+
+// 1-masala
 // let a=+prompt("A soni");
-// if(a>0) console.log(true);
-// else console.log(false);
-// 2)  
+// if(a>0) alert(true);
+// else alert(false);
+
+// 2-masala
 // let a=+prompt("A soni");
 // if(a%2==1)
-// console.log(true);
+// alert(true);
 // else
-// console.log(false);
-// 3) 
+// alert(false);
+
+// 3-masala
 // let a=+prompt("A soni");
 // if(a%2==0)
-// console.log(true);
+// alert(true);
 // else
-// console.log(false);
-// 4) 
+// alert(false);
+
+// 4-masala
 // let a=+prompt("A soni");
 // let b=+prompt("B soni");
 // if(a>0 && b>0)
-// console.log(true);
+// alert(true);
 // else
-// console.log(false);
-// 5) 
+// alert(false);
+
+// 5-masala
 // let a=+prompt("A soni");
 // let b=+prompt("B soni");
 // let c=+prompt("C soni");
 // if(a>b && b>c)
-// console.log(true);
+// alert(true);
 // else
-// console.log(false);
-// 6) 
+// alert(false);
+
+// 6-masala
 // let a=+prompt("A soni");
 // let b=+prompt("B soni");
 // let c=+prompt("C soni");
 // if((a>b && b>c) || (c>b && b>a))
-// console.log(true);
+// alert(true);
 // else
-// console.log(false);
-// 7) 
+// alert(false);
+
+// 7-masala
 // let a=+prompt("A soni");
 // let b=+prompt("B soni");
 // if(a%2==1 && b%2==1)
-// console.log(true);
+// alert(true);
 // else
-// console.log(false);
-// 8) 
+// alert(false);
+
+// 8-masala
 // let a=+prompt("A soni");
 // let b=+prompt("B soni");
 //  let c=+prompt("C soni");
 // let d=+prompt("D soni");
 // if(a>0 && b>0 && c>0 && d>0)
-// console.log(true);
+// alert(true);
 // else
-// console.log(false);
-// 9)
+// alert(false);
+
+// 9-masala
 // let a=+prompt("A soni");
 // let b=+prompt("B soni");
 // let c=+prompt("C soni");
 // if((a>0 && b>0)|| (c>0 && b>0) || (a>0 && c>0))
-// console.log(true);
+// alert(true);
 // else
-// console.log(false);
-// 10)
+// alert(false);
+
+// 10-masala
 // let week=+prompt("hafta kuni");
-// if(week==1) console.log("Yakshanba");
-// else if(week==2) console.log("Dushanba");
-// else if(week==2) console.log("Seshanba");
-// else if(week==3) console.log("Chorshnba");
-// else if(week==4) console.log("Payshanba");
-// else if(week==5) console.log("Juma");
-// else if(week==6) console.log("Shanba");
-// 11)
-// let num=+prompt("tel:");
+// if(week==1) alert("Yakshanba");
+// else if(week==2) alert("Dushanba");
+// else if(week==2) alert("Seshanba");
+// else if(week==3) alert("Chorshnba");
+// else if(week==4) alert("Payshanba");
+// else if(week==5) alert("Juma");
+// else if(week==6) alert("Shanba");
+
+// 11-masala
+// let num=+prompt("tel:+998");
 // let cod=(num-num%10000000)/10000000;
-// if(cod==99) console.log("Uzmobile");
-// else if(cod==33) console.log("Humans");
-// else if(cod==93) console.log("Usel");
-// else if(cod==90 || cod==91) console.log("Beeline");
-// else console.log("Error");
-// 12)
+// if(cod==99) alert("Uzmobile");
+// else if(cod==33) alert("Humans");
+// else if(cod==93) alert("Usel");
+// else if(cod==90 || cod==91) alert("Beeline");
+// else alert("Error");
+
+// 12-masala
 // let a=+prompt(" Number ");
 // if(a>0) a++;
 // else a--;
-// console.log(a);
+// alert(a);
 
-// 13)
+// 13-masala
 // let a=+prompt(" Number ");
-// if(a>0) console.log(a+3);
-// else console.log(a-2);
-// 14)
+// if(a>0) alert(a+3);
+// else alert(a-2);
+
+// 14-masala
 // let a=+prompt("A soni");
 // let b=+prompt("B soni");
-// if(a>b) console.log(a);
-// else console.log(b);
-// 15)
-// let a=+prompt("A soni");
-// let b=+prompt("B soni");
-// let c=+prompt("C soni");
-// if(a>b && a>c) console.log(a);
-// else if(b>a && b>c) console.log(b);
-// else if(c>a && c>a) console.log(c);
-// else console.log("Error");
-// 16)
+// if(a>b) alert(a);
+// else alert(b);
+
+// 15-masala
 // let a=+prompt("A soni");
 // let b=+prompt("B soni");
 // let c=+prompt("C soni");
-// if(a<b && a<c) console.log(a);
-// else if(b<a && b<c) console.log(b);
-// else if(c<b && c<a) console.log(c);
-// else console.log("Error");
+// if(a>b && a>c) alert(a);
+// else if(b>a && b>c) alert(b);
+// else if(c>a && c>a) alert(c);
+// else alert("Error");
+
+// 16-masala
+// let a=+prompt("A soni");
+// let b=+prompt("B soni");
+// let c=+prompt("C soni");
+// if(a<b && a<c) alert(a);
+// else if(b<a && b<c) alert(b);
+// else if(c<b && c<a) alert(c);
+// else alert("Error");
